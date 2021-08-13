@@ -24,3 +24,6 @@ jobs:
           repoToken: ${{secrets.GITHUB_TOKEN}}
           catFact: ${{steps.cat.outputs.fact}}
           issueTitle: "a cat fact for you"
+     
+      - name: hello-cpp
+        uses: ./.github/actions/hello-cpp
