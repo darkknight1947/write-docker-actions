@@ -1,1 +1,7 @@
+name: "my C++ Action"
 
+description: "Try C++ with GitHub Actions"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
